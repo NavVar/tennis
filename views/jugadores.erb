@@ -1,0 +1,42 @@
+<h1><p align="center">Tennis Score</p></h1>
+
+
+<h3><p align="center">Partida:</p></h3>
+
+
+<h4><p align="center">jugador1</p></h4>
+<p align="center">
+<%= @jugador1 %>
+<br>
+<%= $puntaje1 %>
+</p>
+
+<!--
+<p align="center"><button>
+ <a href="#" class="btn">Anota</a>
+</button></p>
+-->
+
+<form action="/jugadores" method="get">
+	<p align="center"><input type="submit" value="Anotar"></p>
+</form>
+
+
+
+<h4><p align="center">jugador2</p></h4>
+<p align="center">
+<%= @jugador2 %>
+<br>
+<%= $puntaje2 %>
+</p>
+
+<!--
+
+<p align="center"><button>
+ <a href="#" class="btn">Anota</a>
+</button></p>
+ -->
+
+<form action="/jugadores2" method="get">
+  <p align="center"><input type="submit" value="Anotar"></p>
+</form>
