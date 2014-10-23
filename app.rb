@@ -19,19 +19,17 @@ get '/jugadores' do
 	@jugador1= params[:jugador1]
 	@jugador2= params[:jugador2]
 	
-	$puntaje1 = $puntaje1 + 15
-
-
-	erb :jugadores 
-end
-
-
-get '/jugadores2' do
-	@jugador1= params[:jugador1]
-	@jugador2= params[:jugador2]
-	
-	$puntaje2 = $puntaje2 + 15
-
+	if $puntaje1 == 0 
+		$puntaje1 = $puntaje1 + 15
+	else
+		if $puntaje1 == 15 
+			$puntaje1 = $puntaje1 + 15
+		else
+			if $puntaje1 == 30 
+				$puntaje1 = $puntaje1 +10
+			end
+		end
+	end	
 
 	erb :jugadores 
 end
