@@ -4,6 +4,16 @@
 <h3><p align="center">Partida:</p></h3>
 
 
+<% if $puntaje1 == 40 && $puntaje2 == 30 %>
+<center><h1><b> GANA Jugador1 </b></h1></center>
+<%else%>
+	<% if $puntaje1 == 40 && $puntaje2 == 40 %>
+		<center><h1><b> DEUCE </b></h1></center>
+	<% end %>
+
+<% end %>
+
+
 <h4><p align="center">jugador1</p></h4>
 <p align="center">
 <%= @jugador1 %>
@@ -13,10 +23,16 @@
 
 
 
+
 <form action="/jugadores" method="get">
 	<p align="center"><input type="submit" value="Anotar"></p>
 </form>
 
+<br>
+
+<% if $puntaje2 == 40 && $puntaje1 == 30 %>
+<center><h1><b> GANA Jugador2 </b></h1></center>
+<% end %>
 
 
 <h4><p align="center">jugador2</p></h4>

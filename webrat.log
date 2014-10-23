@@ -823,3 +823,17 @@ D, [2014-10-23T03:44:30.657553 #724] DEBUG -- : REQUESTING PAGE: GET /jugadores 
 D, [2014-10-23T03:44:30.685514 #724] DEBUG -- : REQUESTING PAGE: GET /jugadores with {} and HTTP headers {}
 D, [2014-10-23T03:44:30.712803 #724] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
 D, [2014-10-23T03:44:30.739825 #724] DEBUG -- : REQUESTING PAGE: POST /jugadores with {"jugador1"=>"<valor>", "jugador2"=>"<valor>"} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2014-10-23T04:06:13.679699 #4504] DEBUG -- : REQUESTING PAGE: GET /jugadores with {} and HTTP headers {}
+D, [2014-10-23T04:06:13.748746 #4504] DEBUG -- : REQUESTING PAGE: GET /jugadores with {} and HTTP headers {"HTTP_REFERER"=>"/jugadores"}
+D, [2014-10-23T04:06:13.771760 #4504] DEBUG -- : REQUESTING PAGE: GET /jugadores with {} and HTTP headers {}
+D, [2014-10-23T04:06:13.776764 #4504] DEBUG -- : REQUESTING PAGE: GET /jugadores with {} and HTTP headers {"HTTP_REFERER"=>"/jugadores"}
+D, [2014-10-23T04:06:13.795778 #4504] DEBUG -- : REQUESTING PAGE: GET /jugadores with {} and HTTP headers {}
+D, [2014-10-23T04:06:13.802782 #4504] DEBUG -- : REQUESTING PAGE: GET /jugadores with {} and HTTP headers {"HTTP_REFERER"=>"/jugadores"}
+D, [2014-10-23T04:06:13.822794 #4504] DEBUG -- : REQUESTING PAGE: GET /jugadores with {} and HTTP headers {}
+D, [2014-10-23T04:06:13.827797 #4504] DEBUG -- : REQUESTING PAGE: GET /jugadores with {} and HTTP headers {"HTTP_REFERER"=>"/jugadores"}
+D, [2014-10-23T04:06:13.851814 #4504] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2014-10-23T04:06:13.878831 #4504] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2014-10-23T04:06:13.899847 #4504] DEBUG -- : REQUESTING PAGE: GET /jugadores with {} and HTTP headers {}
+D, [2014-10-23T04:06:13.915858 #4504] DEBUG -- : REQUESTING PAGE: GET /jugadores with {} and HTTP headers {}
+D, [2014-10-23T04:06:13.923863 #4504] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2014-10-23T04:06:13.942875 #4504] DEBUG -- : REQUESTING PAGE: POST /jugadores with {"jugador1"=>"<valor>", "jugador2"=>"<valor>"} and HTTP headers {"HTTP_REFERER"=>"/"}
