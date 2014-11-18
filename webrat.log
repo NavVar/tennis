@@ -996,3 +996,21 @@ D, [2014-11-06T08:26:41.671681 #5644] DEBUG -- : REQUESTING PAGE: GET / with {} 
 D, [2014-11-06T08:26:41.677686 #5644] DEBUG -- : REQUESTING PAGE: POST /jugadores with {"jugador1"=>"<valor>", "jugador2"=>"<valor>"} and HTTP headers {"HTTP_REFERER"=>"/"}
 D, [2014-11-06T08:26:41.689249 #5644] DEBUG -- : REQUESTING PAGE: GET /jugadores with {} and HTTP headers {}
 D, [2014-11-06T08:26:41.695252 #5644] DEBUG -- : REQUESTING PAGE: GET /volver with {} and HTTP headers {"HTTP_REFERER"=>"/jugadores"}
+D, [2014-11-18T07:45:24.152965 #6416] DEBUG -- : REQUESTING PAGE: GET /jugadores with {} and HTTP headers {}
+D, [2014-11-18T07:45:24.229016 #6416] DEBUG -- : REQUESTING PAGE: GET /jugadores with {} and HTTP headers {"HTTP_REFERER"=>"/jugadores"}
+D, [2014-11-18T07:45:24.251709 #6416] DEBUG -- : REQUESTING PAGE: GET /jugadores with {} and HTTP headers {}
+D, [2014-11-18T07:45:24.257712 #6416] DEBUG -- : REQUESTING PAGE: GET /jugadores with {} and HTTP headers {"HTTP_REFERER"=>"/jugadores"}
+D, [2014-11-18T07:45:24.267719 #6416] DEBUG -- : REQUESTING PAGE: GET /jugadores with {} and HTTP headers {}
+D, [2014-11-18T07:45:24.273722 #6416] DEBUG -- : REQUESTING PAGE: GET /jugadores with {} and HTTP headers {"HTTP_REFERER"=>"/jugadores"}
+D, [2014-11-18T07:45:24.284450 #6416] DEBUG -- : REQUESTING PAGE: GET /jugadores with {} and HTTP headers {}
+D, [2014-11-18T07:45:24.291453 #6416] DEBUG -- : REQUESTING PAGE: GET /jugadores with {} and HTTP headers {"HTTP_REFERER"=>"/jugadores"}
+D, [2014-11-18T07:45:24.306901 #6416] DEBUG -- : REQUESTING PAGE: GET /jugadores with {} and HTTP headers {}
+D, [2014-11-18T07:45:24.316907 #6416] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2014-11-18T07:45:24.334921 #6416] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2014-11-18T07:45:24.344926 #6416] DEBUG -- : REQUESTING PAGE: GET /jugadores with {} and HTTP headers {}
+D, [2014-11-18T07:45:24.357935 #6416] DEBUG -- : REQUESTING PAGE: GET /jugadores with {} and HTTP headers {}
+D, [2014-11-18T07:45:24.383953 #6416] DEBUG -- : REQUESTING PAGE: GET /jugadores with {} and HTTP headers {}
+D, [2014-11-18T07:45:24.398963 #6416] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2014-11-18T07:45:24.408970 #6416] DEBUG -- : REQUESTING PAGE: POST /jugadores with {"jugador1"=>"<valor>", "jugador2"=>"<valor>"} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2014-11-18T07:45:24.425980 #6416] DEBUG -- : REQUESTING PAGE: GET /jugadores with {} and HTTP headers {}
+D, [2014-11-18T07:45:24.435987 #6416] DEBUG -- : REQUESTING PAGE: GET /volver with {} and HTTP headers {"HTTP_REFERER"=>"/jugadores"}
