@@ -16,7 +16,7 @@
 
 <h4><p align="center">jugador1</p></h4>
 <p align="center">
-<%= @jugador1 %>
+<%= $jugador1 %>
 <br>
 <%= $puntaje1 %>
 </p>
@@ -37,7 +37,7 @@
 
 <h4><p align="center">jugador2</p></h4>
 <p align="center">
-<%= @jugador2 %>
+<%= $jugador2 %>
 <br>
 <%= $puntaje2 %>
 </p>
@@ -46,3 +46,64 @@
 <form action="/jugadores2" method="get">
   <p align="center"><input type="submit" value="Anotar"></p>
 </form>
+
+
+<form action="/volver" method="get">
+  <p align="center"><input type="submit" value="volver"></p>
+</form>
+
+<br>
+<br>
+
+<% if $jugadas > 1 ||  $jugadas < 3 %>
+<h1><b> Resultados tres ultimos juegos </b></h1>
+<%= $jugada1 %>
+<%= $result1 %>
+<%= $jugada2 %>
+<%= $result2 %>
+<br>
+<br>
+<br>
+<%= "**--**--**" %>
+<br>
+<%= $jugada3 %>
+<%= $result3 %>
+<%= $jugada4 %>
+<%= $result4 %>
+<br>
+<br>
+<br>
+<%= "**--**--**" %>
+<br>
+<%= $jugada5 %>
+<%= $result5 %>
+<%= $jugada6 %> 
+<%= $result6 %>
+<br>
+<br>
+<% else %>
+	<% if $jugadas == 3%>
+		 <% $jugadas = 1 %>
+		 <br>
+
+<%= $jugada3 %>
+<%= $result3 %>
+<%= $jugada4 %>
+<%= $result4 %>
+<br>
+<br>
+<br>
+<%= "**--**--**" %>
+<br>
+<%= $jugada5 %>
+<%= $result5 %>
+<%= $jugada6 %> 
+<%= $result6 %>
+<br>
+<br>
+	<% end %>
+
+<% end %>
+
+
+
